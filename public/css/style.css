@@ -1,0 +1,15 @@
+.center-container {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100vh; /* Use the full viewport height */
+}
+
+h1 {
+  color: blue;
+}
+.completed {
+  color: gray;
+  text-decoration: line-through;
+}
